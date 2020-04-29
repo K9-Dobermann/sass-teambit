@@ -6,24 +6,48 @@
 
 
 body {
-    background-color: $secondary-color;
+    background-color: white;
 }
 .row {
-    h1{
-        background-color: orange;
-        color: #5d4633;
-    }
+
     ul a {
-       color: #5d4633;
+       color: $secondary-color;
        width: 600px;
         padding-top: 25px;
-        margin-left: 50px;
-        margin-top: 50px;
+        margin-left: 20px;
         list-style-type: none;
-        font-size: 15px;
+        font-size: 13px;
 
     }
+
+    ul {
+        margin-top: 50px;
+    }
+    h2 {
+        font-size: 50px;
+        color:$secondary-color;
+    }
+    h3 {
+
+    }
+    #logo {
+        margin-top: 50px;
+    }
+    #imgsez1 {
+        height:390px;
+    }
 }
+
+
 #prova {
     border-bottom: 1px solid grey;
+}
+
+#uno {
+    margin-top: 60px;
+}
+#due {
+    color:$primary-color;
+    height:400px;
+    width: 100%;
 }

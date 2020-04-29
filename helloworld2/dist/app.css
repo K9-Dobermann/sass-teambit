@@ -6,22 +6,43 @@ body {
   background-color: white;
 }
 
-.row h1 {
-  background-color: orange;
-  color: #5d4633;
-}
-
 .row ul a {
   color: #5d4633;
   width: 600px;
   padding-top: 25px;
-  margin-left: 50px;
-  margin-top: 50px;
+  margin-left: 20px;
   list-style-type: none;
-  font-size: 15px;
+  font-size: 13px;
+}
+
+.row ul {
+  margin-top: 50px;
+}
+
+.row h2 {
+  font-size: 50px;
+  color: #5d4633;
+}
+
+.row #logo {
+  margin-top: 50px;
+}
+
+.row #imgsez1 {
+  height: 390px;
 }
 
 #prova {
   border-bottom: 1px solid grey;
+}
+
+#uno {
+  margin-top: 60px;
+}
+
+#due {
+  color: #ffe7d2;
+  height: 400px;
+  width: 100%;
 }
 
