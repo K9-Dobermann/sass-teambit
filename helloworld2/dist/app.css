@@ -1,6 +1,5 @@
 [class*=col-] {
   float: left;
-  /* border:1px solid black; */
 }
 
 body {
@@ -8,7 +7,21 @@ body {
 }
 
 .row h1 {
-  background-color: purple;
-  color: black;
+  background-color: orange;
+  color: #5d4633;
+}
+
+.row ul a {
+  color: #5d4633;
+  width: 600px;
+  padding-top: 25px;
+  margin-left: 50px;
+  margin-top: 50px;
+  list-style-type: none;
+  font-size: 15px;
+}
+
+#prova {
+  border-bottom: 1px solid grey;
 }
 
