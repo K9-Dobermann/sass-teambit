@@ -24,6 +24,10 @@ body {
   color: #5d4633;
 }
 
+.row h3 {
+  color: #5d4633;
+}
+
 .row #logo {
   margin-top: 50px;
 }
@@ -41,7 +45,7 @@ body {
 }
 
 #due {
-  color: #ffe7d2;
+  background-color: #ffe7d2;
   height: 400px;
   width: 100%;
 }
