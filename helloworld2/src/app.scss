@@ -1,0 +1,17 @@
+[class*="col-"] {
+  float: left;
+  /* border:1px solid black; */
+}
+
+@import "variables";
+
+
+body {
+    background-color: $secondary-color;
+}
+.row {
+    h1{
+        background-color: purple;
+        color: black;
+    }
+}
