@@ -202,6 +202,11 @@ body {
   margin-top: 50px;
 }
 
+.quattro span {
+  color: #5182c5;
+  font-size: 22px;
+}
+
 .cinque {
   height: 630px;
   width: 100%;
@@ -240,6 +245,11 @@ body {
   width: auto;
   margin-left: 80px;
   margin-top: 50px;
+}
+
+.cinque span {
+  color: #5182c5;
+  font-size: 22px;
 }
 
 .sei {
@@ -283,6 +293,11 @@ body {
   margin-top: 50px;
 }
 
+.sei span {
+  color: #5182c5;
+  font-size: 22px;
+}
+
 .sette {
   height: 630px;
   width: 100%;
@@ -321,6 +336,11 @@ body {
   width: auto;
   margin-left: 80px;
   margin-top: 50px;
+}
+
+.sette span {
+  color: #5182c5;
+  font-size: 22px;
 }
 
 .otto {
