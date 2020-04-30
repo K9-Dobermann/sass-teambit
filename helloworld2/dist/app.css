@@ -26,6 +26,7 @@ body {
 
 .row h3 {
   color: #5d4633;
+  font-size: 27px;
 }
 
 .row #logo {
@@ -36,17 +37,256 @@ body {
   height: 390px;
 }
 
-#prova {
+#barrasotto {
   border-bottom: 1px solid grey;
 }
 
-#uno {
+.uno {
   margin-top: 60px;
 }
 
-#due {
+.due {
   background-color: #ffe7d2;
-  height: 400px;
+  height: 750px;
   width: 100%;
+  margin-top: 50px;
+}
+
+.due h3 {
+  color: #5d4633;
+  font-size: 19px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.due .testo {
+  margin-top: 80px;
+  font-size: 27px;
+  text-align: center;
+}
+
+.due .immaginine {
+  height: 100px;
+  width: auto;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.due .singola {
+  height: 250px;
+  width: auto;
+  margin-top: 50px;
+}
+
+.due #barrasotto2 {
+  border-bottom: 1px solid grey;
+  margin-top: 80px;
+}
+
+.tre {
+  background-color: #ffe7d2;
+  height: 890px;
+  width: 100%;
+}
+
+.tre .immaginine {
+  height: 100px;
+  width: auto;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.tre h3 {
+  color: #5d4633;
+  font-size: 19px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tre .testo {
+  margin-top: 80px;
+  font-size: 27px;
+  text-align: center;
+}
+
+.tre .singola {
+  height: 300px;
+  width: auto;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+.quattro {
+  height: 630px;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.quattro .employ {
+  height: 450px;
+  width: auto;
+  margin-left: -110px;
+}
+
+.quattro a {
+  color: #5182c5;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.quattro h2 {
+  color: #5d4633;
+  font-size: 27px;
+  margin-left: 50px;
+}
+
+.quattro h3 {
+  color: #5d4633;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.quattro #com {
+  height: 210px;
+  width: auto;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.cinque {
+  height: 630px;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.cinque .employsurvey {
+  height: 480px;
+  width: auto;
+}
+
+.cinque a {
+  color: #5182c5;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.cinque h2 {
+  color: #5d4633;
+  font-size: 27px;
+  margin-left: 50px;
+}
+
+.cinque h3 {
+  color: #5d4633;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.cinque #com2 {
+  height: 250px;
+  width: auto;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.sei {
+  height: 630px;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.sei .review {
+  height: 430px;
+  width: auto;
+  margin-left: -140px;
+}
+
+.sei a {
+  color: #5182c5;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.sei h2 {
+  color: #5d4633;
+  font-size: 27px;
+  margin-left: 50px;
+}
+
+.sei h3 {
+  color: #5d4633;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.sei #com3 {
+  height: 250px;
+  width: auto;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.sette {
+  height: 630px;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.sette .reco {
+  height: 560px;
+  width: auto;
+}
+
+.sette a {
+  color: #5182c5;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.sette h2 {
+  color: #5d4633;
+  font-size: 27px;
+  margin-left: 50px;
+}
+
+.sette h3 {
+  color: #5d4633;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.sette #com4 {
+  height: 250px;
+  width: auto;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.otto {
+  background-color: #ffe7d2;
+  height: 750px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.otto h2 {
+  color: #5d4633;
+  font-size: 50px;
 }
 

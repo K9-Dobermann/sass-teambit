@@ -29,6 +29,7 @@ body {
     }
     h3 {
           color:$secondary-color;
+          font-size: 27px;
     }
     #logo {
         margin-top: 50px;
@@ -39,15 +40,247 @@ body {
 }
 
 
-#prova {
+#barrasotto {
     border-bottom: 1px solid grey;
 }
 
-#uno {
+.uno {
     margin-top: 60px;
 }
-#due {
+// sezione 2222222222222222
+.due {
     background-color:$primary-color;
-    height:400px;
+    height:750px;
     width: 100%;
+    margin-top: 50px;
+
+
+h3 {
+    color:$secondary-color;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 20px;
+}
+.testo {
+    margin-top: 80px;
+    font-size: 27px;
+    text-align: center;
+}
+.immaginine {
+    height: 100px;
+    width: auto;
+    margin-top: 50px;
+    margin-left: 120px;
+
+}
+.singola {
+    height: 250px;
+    width: auto;
+    margin-top: 50px;
+}
+#barrasotto2 {
+    border-bottom: 1px solid grey;
+    margin-top: 80px;
+}
+}
+// fine section2
+// 3 section
+.tre {
+    background-color: $primary-color;
+    height:890px;
+    width: 100%;
+
+.immaginine {
+        height: 100px;
+        width: auto;
+        margin-top: 50px;
+        margin-left: 120px;
+
+    }
+h3 {
+        color:$secondary-color;
+        font-size: 19px;
+        text-align: center;
+        margin-top: 20px;
+    }
+.testo {
+        margin-top: 80px;
+        font-size: 27px;
+        text-align: center;
+    }
+.singola {
+        height: 300px;
+        width: auto;
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+
+
+}
+// section 4
+.quattro {
+    height:630px;
+    width: 100%;
+    margin-top:80px;
+
+.employ {
+        height:450px;
+        width: auto;
+        margin-left: -110px;
+
+    }
+    a {
+        color:#5182c5;
+        font-size: 22px;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+    h2 {
+        color:$secondary-color;
+        font-size: 27px;
+        margin-left: 50px;
+    }
+    h3 {
+            color:$secondary-color;
+            font-size: 22px;
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+        #com {
+            height:210px;
+            width: auto;
+            margin-left: 80px;
+            margin-top: 50px;
+
+        }
+}
+// section 5
+.cinque {
+    height:630px;
+    width: 100%;
+    margin-top:80px;
+
+.employsurvey {
+            height:480px;
+            width: auto;
+
+        }
+        a {
+            color:#5182c5;
+            font-size: 22px;
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 35px;
+        }
+        h2 {
+            color:$secondary-color;
+            font-size: 27px;
+            margin-left: 50px;
+        }
+        h3 {
+                color:$secondary-color;
+                font-size: 22px;
+                text-align: left;
+                margin-top: 20px;
+                margin-left: 50px;
+            }
+#com2 {
+                height:250px;
+                width: auto;
+                margin-left: 80px;
+                margin-top: 50px;
+
+            }
+
+}
+// section 6
+.sei {
+    height:630px;
+    width: 100%;
+    margin-top:80px;
+    .review {
+                height:430px;
+                width: auto;
+                margin-left: -140px;
+
+            }
+            a {
+                color:#5182c5;
+                font-size: 22px;
+                text-align: left;
+                margin-top: 20px;
+                margin-left: 35px;
+            }
+            h2 {
+                color:$secondary-color;
+                font-size: 27px;
+                margin-left: 50px;
+            }
+            h3 {
+                    color:$secondary-color;
+                    font-size: 22px;
+                    text-align: left;
+                    margin-top: 20px;
+                    margin-left: 50px;
+                }
+    #com3 {
+                    height:250px;
+                    width: auto;
+                    margin-left: 80px;
+                    margin-top: 50px;
+
+                }
+
+}
+// section7
+.sette {
+    height:630px;
+    width: 100%;
+    margin-top:80px;
+
+.reco {
+            height: 560px;
+            width: auto;
+
+        }
+        a {
+            color:#5182c5;
+            font-size: 22px;
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 35px;
+        }
+        h2 {
+            color:$secondary-color;
+            font-size: 27px;
+            margin-left: 50px;
+        }
+        h3 {
+                color:$secondary-color;
+                font-size: 22px;
+                text-align: left;
+                margin-top: 20px;
+                margin-left: 50px;
+            }
+#com4 {
+                height:250px;
+                width: auto;
+                margin-left: 80px;
+                margin-top: 50px;
+
+            }
+
+}
+// section888888888
+.otto {
+    background-color:$primary-color;
+    height:750px;
+    width: 100%;
+    margin-top: 50px;
+    h2 {
+        color:$secondary-color;
+        font-size: 50px;
+    }
 }
