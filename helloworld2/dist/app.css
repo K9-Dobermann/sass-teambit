@@ -2,10 +2,6 @@
   float: left;
 }
 
-body {
-  background-color: white;
-}
-
 .row ul a {
   color: #5d4633;
   width: 600px;
@@ -76,6 +72,7 @@ body {
 
 .row #logo {
   margin-top: 85px;
+  height: 40px;
 }
 
 .row #imgsez1 {
@@ -130,7 +127,6 @@ body {
 
 .tre {
   background-color: #ffe7d2;
-  height: 890px;
   width: 100%;
 }
 
@@ -413,5 +409,30 @@ body {
 
 #fine a {
   padding: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  #logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .quattro .employ {
+    margin-left: 50px;
+  }
+
+  .row #logo {
+    margin-bottom: 30px;
+    height: 50px;
+  }
+
+  .row #barrasotto {
+    width: 100%;
+  }
+
+  .row ul {
+    display: none;
+  }
 }
 

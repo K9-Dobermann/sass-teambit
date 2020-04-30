@@ -1,14 +1,11 @@
 [class*="col-"] {
   float: left;
 }
-
+// variabile
 @import "variables";
 
+// header
 
-
-body {
-    background-color: white;
-}
 .row {
 
     ul a {
@@ -73,6 +70,7 @@ body {
     }
     #logo {
         margin-top: 85px;
+        height: 40px;
     }
     #imgsez1 {
         height:390px;
@@ -82,6 +80,7 @@ body {
 
 #barrasotto {
     border-bottom: 1px solid grey;
+
 }
 
 .uno {
@@ -127,7 +126,7 @@ h3 {
 // 3 section
 .tre {
     background-color: $primary-color;
-    height:890px;
+    // height:890px;
     width: 100%;
 
 .immaginine {
@@ -394,4 +393,37 @@ h3 {
     a {
         padding: 0px;
     }
+}
+// mediaquery
+@media screen and (max-width: 768px) {
+
+    #logo {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+.quattro {
+    .employ{
+        margin-left: 50px;
+    }
+};
+.row {
+
+#logo {
+     margin-bottom: 30px;
+     height: 50px;
+}
+   #barrasotto {
+       width:100%;
+
+         }
+        ul {
+            display: none;
+        }
+    }
+};
+@media screen and (max-width: 1200px)  {
+
 }
