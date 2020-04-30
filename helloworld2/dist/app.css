@@ -15,8 +15,52 @@ body {
   font-size: 13px;
 }
 
+.row span {
+  color: #5d4633;
+  font-size: 15px;
+}
+
+.row a {
+  text-decoration: none;
+}
+
+.row span:hover {
+  color: #5182c5;
+}
+
+.row button {
+  background-color: #30488f;
+  border-radius: 9px;
+  color: white;
+  margin-top: 30px;
+  padding: 9px;
+}
+
+.row #signup {
+  background-color: white;
+  border-radius: 9px;
+  color: white;
+  margin-top: 30px;
+  border: 1px solid #30488f;
+  color: #30488f;
+  padding: 7px;
+}
+
+.row #signup:hover {
+  background-color: #5182c5;
+  color: white;
+}
+
+.row a {
+  padding: 5px;
+}
+
 .row ul {
   margin-top: 50px;
+}
+
+.row a:hover {
+  color: #5182c5;
 }
 
 .row h2 {
@@ -27,10 +71,11 @@ body {
 .row h3 {
   color: #5d4633;
   font-size: 27px;
+  margin-top: 30px;
 }
 
 .row #logo {
-  margin-top: 50px;
+  margin-top: 85px;
 }
 
 .row #imgsez1 {
@@ -280,13 +325,73 @@ body {
 
 .otto {
   background-color: #ffe7d2;
-  height: 750px;
+  height: 850px;
   width: 100%;
   margin-top: 50px;
 }
 
 .otto h2 {
   color: #5d4633;
-  font-size: 50px;
+  font-size: 40px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.otto .last {
+  margin-top: 20px;
+}
+
+.otto span {
+  color: #5d4633;
+  font-size: 15px;
+}
+
+.otto a {
+  text-decoration: none;
+}
+
+.otto span:hover {
+  color: #5182c5;
+}
+
+.otto button {
+  background-color: #30488f;
+  border-radius: 9px;
+  color: white;
+}
+
+#fine {
+  height: 450px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+#fine span ul li {
+  color: #5d4633;
+}
+
+#fine span {
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+#fine ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#fine li {
+  margin: 2px;
+  padding: 2px;
+  width: 150px;
+  text-align: center;
+}
+
+#fine h3 {
+  font-size: 22px;
+}
+
+#fine a {
+  padding: 0px;
 }
 

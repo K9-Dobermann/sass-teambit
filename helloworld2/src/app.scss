@@ -5,6 +5,7 @@
 @import "variables";
 
 
+
 body {
     background-color: white;
 }
@@ -19,9 +20,47 @@ body {
         font-size: 13px;
 
     }
+    span {
+        color:$secondary-color;
+        font-size: 15px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    span:hover {
+        color:#5182c5;
+    }
+    button {
+        background-color: rgb(48,72,143);
+        border-radius: 9px;
+        color:white;
+        margin-top: 30px;
+        padding: 9px;
+    }
+
+    #signup {
+        background-color:white;
+        border-radius: 9px;
+        color:white;
+        margin-top: 30px;
+        border: 1px solid rgb(48,72,143);
+        color :rgb(48,72,143);
+        padding: 7px;
+    }
+    #signup:hover {
+        background-color:#5182c5;
+        color : white;
+    }
+    a {
+        padding: 5px;
+    }
 
     ul {
         margin-top: 50px;
+    }
+    a:hover {
+        color:#5182c5;
     }
     h2 {
         font-size: 50px;
@@ -30,9 +69,10 @@ body {
     h3 {
           color:$secondary-color;
           font-size: 27px;
+          margin-top: 30px;
     }
     #logo {
-        margin-top: 50px;
+        margin-top: 85px;
     }
     #imgsez1 {
         height:390px;
@@ -276,11 +316,66 @@ h3 {
 // section888888888
 .otto {
     background-color:$primary-color;
-    height:750px;
+    height:850px;
     width: 100%;
     margin-top: 50px;
     h2 {
         color:$secondary-color;
-        font-size: 50px;
+        font-size: 40px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .last {
+        margin-top: 20px;
+    }
+    span {
+        color:$secondary-color;
+        font-size: 15px;
+    }
+    a {
+        text-decoration: none;
+
+    }
+    span:hover {
+        color:#5182c5;
+
+    }
+    button {
+        background-color: rgb(48,72,143);
+        border-radius: 9px;
+        color:white;
+    }
+}
+
+// footer
+#fine{
+    height:450px;
+    width: 100%;
+    margin-top: 50px;
+
+    span ul li{
+        color:$secondary-color;
+
+    }
+    span {
+        font-size: 17px;
+        margin-left: 10px;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+
+    }
+    li {
+        margin: 2px;
+        padding: 2px;
+        width: 150px;
+        text-align: center;
+    }
+    h3{
+        font-size: 22px;
+    }
+    a {
+        padding: 0px;
     }
 }
