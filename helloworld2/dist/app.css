@@ -389,8 +389,10 @@
   margin-top: 80px;
 }
 
-.fine .ultimi a {
-  font-size: 13px;
+.fine #teambit {
+  text-align: left;
+  font-size: 17px;
+  color: #5d4633;
 }
 
 .fine .dio {
@@ -401,15 +403,13 @@
 
 .fine .ultimi {
   list-style-type: none;
-  padding: 0;
 }
 
 .fine .ultimi li {
-  font-size: 29px;
+  margin: 5px;
+  padding: 5px;
+  width: 200px;
   text-align: left;
-  margin: 0px;
-  padding: 0 10px;
-  width: 250px;
   color: #5d4633;
 }
 
@@ -419,14 +419,15 @@
 }
 
 .fine .ultimi a {
-  padding: 0px;
+  font-size: 13px;
   text-align: left;
   color: #5d4633;
 }
 
 .fine #smile {
-  height: 44px;
+  height: 52px;
   display: block;
+  margin-top: 11px;
 }
 
 @media screen and (max-width: 768px) {
