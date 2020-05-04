@@ -13,3 +13,44 @@ $secondary-color:#5d4633;
     text-align: center;
     margin-top: 20px;
 }
+@mixin pic {
+    height: 100px;
+    width: auto;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+@mixin back {
+    height:630px;
+    width: 100%;
+    margin-top:80px;
+}
+@mixin button {
+
+    background-color: rgb(48,72,143);
+    border-radius: 9px;
+    color:white;
+}
+@mixin parah2 {
+    color:$secondary-color;
+    font-size: 27px;
+    margin-left: 50px;
+}
+@mixin paratesto {
+    margin-top: 80px;
+    font-size: 27px;
+    text-align: center;
+}
+@mixin testoh3 {
+    color:$secondary-color;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+@mixin testoa {
+    color:#5182c5;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 35px;
+}

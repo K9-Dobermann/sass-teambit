@@ -9,9 +9,7 @@
 // variabile
 @import "variables";
 
-
 // header
-
 .row {
 
     ul a {
@@ -35,13 +33,10 @@
         color:#5182c5;
     }
     button {
-        background-color: rgb(48,72,143);
-        border-radius: 9px;
-        color:white;
+        @include button;
         margin-top: 30px;
         padding: 9px;
     }
-
     #signup {
         background-color:white;
         border-radius: 9px;
@@ -81,10 +76,8 @@
     }
 }
 
-
 #barrasotto {
     border-bottom: 1px solid grey;
-
 }
 
 .uno {
@@ -97,20 +90,14 @@
     width: 100%;
     margin-top: 50px;
 
-
 h3 {
     @include prova-piccolo;
 }
 .testo {
-    margin-top: 80px;
-    font-size: 27px;
-    text-align: center;
+    @include paratesto;
 }
 .immaginine {
-    height: 100px;
-    width: auto;
-    margin-top: 50px;
-    margin-left: 120px;
+    @include pic;
 
 }
 .singola {
@@ -131,20 +118,16 @@ h3 {
     width: 100%;
 
 .immaginine {
-        height: 100px;
-        width: auto;
-        margin-top: 50px;
-        margin-left: 120px;
-
+        @include pic;
     }
+
 h3 {
     @include prova-piccolo;
     }
 .testo {
-        margin-top: 80px;
-        font-size: 27px;
-        text-align: center;
+        @include paratesto;
         margin-left: -30px;
+
     }
 .singola {
         height: 300px;
@@ -153,13 +136,10 @@ h3 {
         margin-left: 90px;
     }
 
-
 }
 // section 4
 .quattro {
-    height:630px;
-    width: 100%;
-    margin-top:80px;
+    @include back;
 
 .employ {
         height:450px;
@@ -168,23 +148,13 @@ h3 {
 
     }
     a {
-        color:#5182c5;
-        font-size: 22px;
-        text-align: left;
-        margin-top: 20px;
-        margin-left: 35px;
+        @include testoa;
     }
     h2 {
-        color:$secondary-color;
-        font-size: 27px;
-        margin-left: 50px;
+        @include parah2;
     }
     h3 {
-            color:$secondary-color;
-            font-size: 22px;
-            text-align: left;
-            margin-top: 20px;
-            margin-left: 50px;
+            @include testoh3;
         }
         #com {
             height:210px;
@@ -200,9 +170,7 @@ h3 {
 }
 // section 5
 .cinque {
-    height:630px;
-    width: 100%;
-    margin-top:80px;
+    @include back;
 
 .employsurvey {
             height:480px;
@@ -210,23 +178,13 @@ h3 {
 
         }
         a {
-            color:#5182c5;
-            font-size: 22px;
-            text-align: left;
-            margin-top: 20px;
-            margin-left: 35px;
+            @include testoa;
         }
         h2 {
-            color:$secondary-color;
-            font-size: 27px;
-            margin-left: 50px;
+            @include parah2;
         }
         h3 {
-                color:$secondary-color;
-                font-size: 22px;
-                text-align: left;
-                margin-top: 20px;
-                margin-left: 50px;
+                @include testoh3;
             }
 #com2 {
                 height:250px;
@@ -243,9 +201,8 @@ h3 {
 }
 // section 6
 .sei {
-    height:630px;
-    width: 100%;
-    margin-top:80px;
+    @include back;
+
     .review {
                 height:430px;
                 width: auto;
@@ -253,23 +210,13 @@ h3 {
 
             }
             a {
-                color:#5182c5;
-                font-size: 22px;
-                text-align: left;
-                margin-top: 20px;
-                margin-left: 35px;
+                @include testoa;
             }
             h2 {
-                color:$secondary-color;
-                font-size: 27px;
-                margin-left: 50px;
+                @include parah2;
             }
             h3 {
-                    color:$secondary-color;
-                    font-size: 22px;
-                    text-align: left;
-                    margin-top: 20px;
-                    margin-left: 50px;
+                @include testoh3;
                 }
     #com3 {
                     height:250px;
@@ -286,9 +233,7 @@ h3 {
 }
 // section7
 .sette {
-    height:630px;
-    width: 100%;
-    margin-top:80px;
+@include back;
 
 .reco {
             height: 560px;
@@ -296,23 +241,13 @@ h3 {
 
         }
         a {
-            color:#5182c5;
-            font-size: 22px;
-            text-align: left;
-            margin-top: 20px;
-            margin-left: 35px;
+            @include testoa;
         }
         h2 {
-            color:$secondary-color;
-            font-size: 27px;
-            margin-left: 50px;
+            @include parah2;
         }
         h3 {
-                color:$secondary-color;
-                font-size: 22px;
-                text-align: left;
-                margin-top: 20px;
-                margin-left: 50px;
+            @include testoh3;
             }
 #com4 {
                 height:250px;
@@ -329,67 +264,64 @@ h3 {
 }
 // section888888888
 .otto {
-    background-color:$primary-color;
-    height:850px;
-    width: 100%;
-    margin-top: 50px;
-    h2 {
-        color:$secondary-color;
-        font-size: 40px;
+        background-color:$primary-color;
+        height:850px;
+        width: 100%;
         margin-top: 50px;
-        text-align: center;
+
+    h2 {
+        @include paratesto;
+        font-size: 40px;
     }
     .last {
         margin-top: 20px;
     }
     span {
-        color:$secondary-color;
-        font-size: 15px;
+            color:$secondary-color;
+            font-size: 15px;
     }
     a {
-        text-decoration: none;
+            text-decoration: none;
 
     }
     span:hover {
-        color:#5182c5;
+            color:#5182c5;
 
     }
     button {
-        background-color: rgb(48,72,143);
-        border-radius: 9px;
-        color:white;
+            @include button;
     }
 }
 
 // footer
 .fine{
-    height:450px;
-    width: 100%;
-    margin-top: 80px;
+        height:450px;
+        width: 100%;
+        margin-top: 80px;
 
     #teambit {
-        text-align: left;
-        font-size: 17px;
-        color:$secondary-color;
+            text-align: left;
+            font-size: 17px;
+            color:$secondary-color;
     }
 
     .dio {
-        font-size: 20px;
-        margin-left: 16px;
-        color:$secondary-color;
+            font-size: 20px;
+            margin-left: 16px;
+            color:$secondary-color;
 
     }
     .ultimi  {
-        list-style-type: none;
-        margin: 0px;
-        padding: 0px ;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px ;
 
     }
     p{
-        font-size: 15px;
-        margin: 0px;
-        padding: 0px ;
-        margin-left: 20px;
+            font-size: 15px;
+            margin: 0px;
+            padding: 0px ;
+            margin-left: 20px;
 
     }
     .ultimi li {
