@@ -1,2 +1,15 @@
 $primary-color:#ffe7d2;
 $secondary-color:#5d4633;
+
+@mixin prova {
+    color:$secondary-color;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 20px;
+}
+@mixin prova-piccolo {
+    color:$secondary-color;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;
+}

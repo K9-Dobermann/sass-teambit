@@ -73,7 +73,8 @@
 .row h3 {
   color: #5d4633;
   font-size: 27px;
-  margin-top: 30px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .row #logo {
@@ -102,7 +103,7 @@
 
 .due h3 {
   color: #5d4633;
-  font-size: 19px;
+  font-size: 17px;
   text-align: center;
   margin-top: 20px;
 }
@@ -145,7 +146,7 @@
 
 .tre h3 {
   color: #5d4633;
-  font-size: 19px;
+  font-size: 17px;
   text-align: center;
   margin-top: 20px;
 }
@@ -403,12 +404,21 @@
 
 .fine .ultimi {
   list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.fine p {
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 20px;
 }
 
 .fine .ultimi li {
-  margin: 5px;
-  padding: 5px;
-  width: 200px;
+  margin: 0px;
+  padding: 0px;
+  width: 140px;
   text-align: left;
   color: #5d4633;
 }
@@ -422,6 +432,7 @@
   font-size: 13px;
   text-align: left;
   color: #5d4633;
+  padding: 1px;
 }
 
 .fine #smile {
